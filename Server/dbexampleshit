@@ -1,0 +1,23 @@
+/*
+const Schema = mongoose.Schema;
+
+const demoSchema = new Schema({
+    test: String,
+    more: Number
+});
+
+const Demo = mongoose.model('Demo', demoSchema);
+
+mongoose.connect(`mongodb://${process.env.DB_USER}:${process.env.DB_PWD}@${process.env.DB_HOST}/admin`).then(() => {console.log("Connected succesfully");
+        app.listen(process.env.APP_PORT);
+}, err => {
+    console.log('Sori mut ei onnistu: ' + err );
+});
+*/
+
+
+/*app.get('/', (req, res) => {
+    Demo.create({ test: 'Hello', more: 69 }).then(post => {
+        res.send("Post ID: " + post.id);
+    });
+});*/
